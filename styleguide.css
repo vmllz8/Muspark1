@@ -1,0 +1,21 @@
+:root { 
+  --black: #000000;
+  --gun-powder: #3f3d56;
+  --white: #ffffff;
+ 
+  --font-size-l2: 16px;
+  --font-size-s: 14px;
+  --font-size-xs: 12px;
+  --font-size-xxl: 20px;
+ 
+  --font-family-cairo: "Cairo", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-noto_sans_arabic: "Noto Sans Arabic", Helvetica;
+}
+.inter-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l2);
+  font-style: normal;
+  font-weight: 400;
+}
